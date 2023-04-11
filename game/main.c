@@ -1,6 +1,6 @@
 
 #include "game.h"
-
+#include "ProcBar.h"
 int main()
 {
 	int quit = 0;
@@ -13,6 +13,7 @@ int main()
 		switch(select)
 		{
 			case 1:
+				process_bar();
 				Game();
 				break;
 			case 0:

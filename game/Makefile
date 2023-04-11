@@ -1,4 +1,4 @@
-game:game.c main.c
+game:game.c main.c ProcBar.c
 	gcc $^ -o $@
 .PHONY:clean
 clean:
